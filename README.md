@@ -54,7 +54,7 @@ I focus on creating efficient, practical solutions.</h3>
 
 ---
 
-### 🛜 NAT Traversal UDP Hole Punching Framework 
+### 🛜 [NAT Traversal UDP Hole Punching Framework](https://github.com/RushiK8626/nat-traversal-udp-hole-punching-over-quic)
 > Minimal implementation of real hole punching for peer to peer communication
 
 - 🔍 Supporting NAT classification, simultaneous UDP hole punching with retry logic
