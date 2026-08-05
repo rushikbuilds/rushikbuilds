@@ -43,7 +43,7 @@ I focus on creating efficient, practical solutions.</h3>
 
 ## 🏗️ Featured Projects
 
-### 💬 [SwiftTalk — Chat Messaging App](https://github.com/RushiK8626/SwiftTalk-Chat-Messaging-App)
+### 💬 [SwiftTalk - Chat Messaging App](https://github.com/RushiK8626/SwiftTalk-Chat-Messaging-App)
 > A full-featured real-time chat application with AI superpowers
 
 - ⚡ Real-time messaging with **Socket.IO** (private & group chats)
