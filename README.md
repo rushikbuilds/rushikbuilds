@@ -14,13 +14,19 @@
 
 ---
 
-## 🏆 GitHub Achievements
+## GitHub Achievements
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source%20Contributor-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Builder-0A66C2?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problem%20Solver-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Active%20Contributor-2E8B57?style=for-the-badge&logo=github&logoColor=white" />
+<p align="left">
+  <img
+    src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png"
+    width="100"
+    alt="YOLO"
+  />
+  <img
+    src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png"
+    width="100"
+    alt="Pull Shark"
+  />
 </p>
 
 ---
@@ -62,9 +68,9 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 💬 [SwiftTalk - Chat Messaging App](https://github.com/RushiK8626/SwiftTalk-Chat-Messaging-App)
+### [SwiftTalk - Chat Messaging App](https://github.com/RushiK8626/SwiftTalk-Chat-Messaging-App)
 A real-time chat application with AI-powered enhancements.
 
 - Real-time private and group messaging with **Socket.IO**
@@ -75,7 +81,7 @@ A real-time chat application with AI-powered enhancements.
 
 ---
 
-### 🛜 [NAT Traversal UDP Hole Punching Framework](https://github.com/RushiK8626/nat-traversal-udp-hole-punching-over-quic)
+### [NAT Traversal UDP Hole Punching Framework](https://github.com/RushiK8626/nat-traversal-udp-hole-punching-over-quic)
 A peer-to-peer networking framework for NAT traversal and relay fallback.
 
 - NAT classification and **simultaneous UDP hole punching**
@@ -86,7 +92,7 @@ A peer-to-peer networking framework for NAT traversal and relay fallback.
 
 ---
 
-### ♟️ [Raylib Chess Game](https://github.com/RushiK8626/Raylib-Chess-Game)
+### [Raylib Chess Game](https://github.com/RushiK8626/Raylib-Chess-Game)
 A fully playable chess game with AI integration.
 
 - Human vs Human and **Human vs Stockfish**
@@ -96,7 +102,7 @@ A fully playable chess game with AI integration.
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RushiK8626&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
@@ -109,7 +115,7 @@ A fully playable chess game with AI integration.
 
 ---
 
-## 📫 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/RushiK8626">
