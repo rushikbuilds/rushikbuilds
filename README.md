@@ -47,10 +47,11 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Sping Boot](https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green)
 
 ### Databases & Caching
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4479A1?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
@@ -64,8 +65,8 @@
 ### Networking & AI
 ![QUIC](https://img.shields.io/badge/QUIC-2D9CDB?style=for-the-badge&logoColor=white)
 ![aioquic](https://img.shields.io/badge/aioquic-6A5ACD?style=for-the-badge&logoColor=white)
-![OpenAI](https://img.shields.io/badge/AI%20Integrations-412991?style=for-the-badge&logo=openai&logoColor=white)
-
+![LangChain](https://img.shields.io/badge/LangChain-ffffff?logo=langchain&logoColor=green)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logo=python&logoColor=white)
 ---
 
 ## Featured Projects
@@ -73,10 +74,13 @@
 ### [SwiftTalk - Chat Messaging App](https://github.com/RushiK8626/SwiftTalk-Chat-Messaging-App)
 A real-time chat application with AI-powered enhancements.
 
-- Real-time private and group messaging with **Socket.IO**
-- **JWT + OTP authentication** with refresh-token flow
-- AI features like smart replies, translations, and chat summaries
-- Push notifications with **Web Push / VAPID**
+- **Real-Time Communication**: Instant delivery, live typing indicators, read receipts, and online/offline status via Socket.IO.
+- **Scalable Architecture**: Dedicated WebSocket server (`:3002`) decoupled from REST API (`:3001`), horizontally scaled via `@socket.io/redis-adapter` and `@socket.io/redis-emitter`.
+- **AI-Powered Assistance**: Smart replies, chat summarization, and message translation powered by Groq (LLaMA 3.3).
+- **Rich Media & File Sharing**: Instant image previews, documents, and file uploads.
+- **Direct & Group Chats**: 1-on-1 private messaging and group chats with admin management.
+- **Robust Authentication**: JWT access & refresh token rotation, email OTP verification (Resend API), and OAuth 2.0 (Google & GitHub).
+- **Privacy & Security**: User blocking, bcrypt password hashing, and granular CORS protection.
 - Stack: **React, Node.js, Express, Socket.IO, MySQL, Prisma, Redis, Docker**
 
 ---
@@ -84,12 +88,15 @@ A real-time chat application with AI-powered enhancements.
 ### [NAT Traversal UDP Hole Punching Framework](https://github.com/RushiK8626/nat-traversal-udp-hole-punching-over-quic)
 A peer-to-peer networking framework for NAT traversal and relay fallback.
 
-- NAT classification and **simultaneous UDP hole punching**
-- **QUIC** transport with `aioquic`, 0-RTT session resumption, and TLS
-- WebSocket-based relay fallback
-- Real-time metrics dashboard via HTTP endpoint
+- **NAT Classification**: Detects full cone, restricted cone, port-restricted, and symmetric NAT
+- **UDP Hole Punching**: Simultaneous hole punching with retry logic
+- **QUIC Transport**: Using `aioquic` with 0-RTT session resumption
+- **Relay Fallback**: WebSocket-based relay when hole punching fails
+- **TLS Authentication**: QUIC built-in TLS 1.3 certificate-based authentication
+- **Metrics Dashboard**: Real-time metrics via HTTP endpoint
+- **High Performance C++ Core**: Native C++ extension (via `pybind11`) for UDP burst hole punching and QUIC stream framing to bypass Python's GIL and loop overhead.
 - Stack: **Python, aioquic, sockets, Docker**
-
+  
 ---
 
 ### [Raylib Chess Game](https://github.com/RushiK8626/Raylib-Chess-Game)
