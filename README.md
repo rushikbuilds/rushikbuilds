@@ -1,15 +1,11 @@
 <h1 align="center">Hey there, I'm Rushikesh 👋</h1>
 
 <p align="center">
-  <strong>Full-Stack Developer • AI/ML Developer • Systems Programmer</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2D9CDB&center=true&vCenter=true&width=500&height=40&lines=Full-Stack+Developer;Systems+Programmer;AI+%26+ML+Developer" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  I build practical software across real-time applications, backend systems, AI features, and performance-focused tools.
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=500&lines=Full-Stack+Developer;AI+%26+ML+Developer;Systems+Programmer;Backend+%26+Realtime+Engineer" alt="Typing SVG" />
+  <strong>Build it fast. Make it scale. Keep it simple.</strong>
 </p>
 
 ---
@@ -47,7 +43,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Sping Boot](https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green)
+![Spring Boot](https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green)
 
 ### Databases & Caching
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -67,36 +63,42 @@
 ![aioquic](https://img.shields.io/badge/aioquic-6A5ACD?style=for-the-badge&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-ffffff?logo=langchain&logoColor=green)
 ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logo=python&logoColor=white)
+
 ---
 
 ## Featured Projects
 
-### [SwiftTalk - Chat Messaging App](https://github.com/RushiK8626/SwiftTalk-Chat-Messaging-App)
+### [SwiftTalk - Chat Messaging App](https://github.com/rushikbuilds/SwiftTalk-Chat-Messaging-App)
 A real-time chat application with AI-powered enhancements.
 
-- **Real-Time Communication**: Instant delivery, live typing indicators, read receipts, and online/offline status via Socket.IO.
-- **Scalable Architecture**: Dedicated WebSocket server (`:3002`) decoupled from REST API (`:3001`), horizontally scaled via `@socket.io/redis-adapter` and `@socket.io/redis-emitter`.
-- **AI-Powered Assistance**: Smart replies, chat summarization, and message translation powered by Groq (LLaMA 3.3).
-- **Rich Media & File Sharing**: Instant image previews, documents, and file uploads.
-- **Direct & Group Chats**: 1-on-1 private messaging and group chats with admin management.
-- **Robust Authentication**: JWT access & refresh token rotation, email OTP verification (Resend API), and OAuth 2.0 (Google & GitHub).
-- **Privacy & Security**: User blocking, bcrypt password hashing, and granular CORS protection.
+- **Real-Time Messaging**: Instant delivery, typing indicators, read receipts, and online status via Socket.IO, with 1-on-1 chats, group chats (admin management), and media/file sharing.
+- **Scalable Architecture**: Dedicated WebSocket server (`:3002`) decoupled from the REST API (`:3001`), horizontally scaled with `@socket.io/redis-adapter` and `@socket.io/redis-emitter`.
+- **AI Assistance**: Smart replies, chat summarization, and message translation powered by Groq (LLaMA 3.3).
+- **Auth & Security**: JWT access/refresh rotation, email OTP (Resend), OAuth 2.0 (Google & GitHub), bcrypt hashing, user blocking, and granular CORS.
 - Stack: **React, Node.js, Express, Socket.IO, MySQL, Prisma, Redis, Docker**
 
 ---
 
-### [NAT Traversal UDP Hole Punching Framework](https://github.com/RushiK8626/nat-traversal-udp-hole-punching-over-quic)
+### [NAT Traversal UDP Hole Punching Framework](https://github.com/rushikbuilds/nat-traversal-udp-hole-punching-over-quic)
 A peer-to-peer networking framework for NAT traversal and relay fallback.
 
-- **NAT Classification**: Detects full cone, restricted cone, port-restricted, and symmetric NAT
-- **UDP Hole Punching**: Simultaneous hole punching with retry logic
-- **QUIC Transport**: Using `aioquic` with 0-RTT session resumption
-- **Relay Fallback**: WebSocket-based relay when hole punching fails
-- **TLS Authentication**: QUIC built-in TLS 1.3 certificate-based authentication
-- **Metrics Dashboard**: Real-time metrics via HTTP endpoint
-- **High Performance C++ Core**: Native C++ extension (via `pybind11`) for UDP burst hole punching and QUIC stream framing to bypass Python's GIL and loop overhead.
-- Stack: **Python, aioquic, sockets, Docker**
-  
+- **NAT Detection & Hole Punching**: Classifies full cone, restricted cone, port-restricted, and symmetric NAT, then runs simultaneous UDP hole punching with retry logic.
+- **QUIC Transport**: `aioquic` with 0-RTT session resumption and built-in TLS 1.3 certificate-based authentication.
+- **Relay Fallback & Metrics**: WebSocket relay when hole punching fails, plus a real-time metrics dashboard over HTTP.
+- **C++ Core**: Native extension (via `pybind11`) for UDP burst punching and QUIC stream framing, bypassing Python's GIL and event-loop overhead.
+- Stack: **Python, C++, aioquic, sockets, Docker**
+
+---
+
+### [Event Sourced Ledger](https://github.com/rushikbuilds/Event-Sourced-Ledger)
+An event-sourced bank transaction ledger where every state change is captured as an immutable event, enabling full audit trails, time-travel debugging, and projection rebuilds.
+
+- **Event Sourcing & CQRS**: Immutable append-only log with separate read (projections) and write models (aggregates).
+- **Projections**: Account balances and transaction histories are derived dynamically from events.
+- **Auto-Evicting Cache**: Redis-backed distributed caching for read query endpoints.
+- **FX Conversion**: Real-time cross-currency transfer support.
+- Stack: **Java, Spring Boot, Postgres, Redis**
+
 ---
 
 ### [Raylib Chess Game](https://github.com/RushiK8626/Raylib-Chess-Game)
@@ -109,34 +111,17 @@ A fully playable chess game with AI integration.
 
 ---
 
-## GitHub Stats
+## 🚀 Currently Exploring
 
-## GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=RushiK8626&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="GitHub Stats"
-    height="180"
-  />
-  <img
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=RushiK8626&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
-    alt="Top Languages"
-    height="180"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com/?user=RushiK8626&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-    height="180"
-  />
-</p>
+- 🤖 Agentic AI workflows with **LangGraph**
+- ⚡ Low-latency networking and **systems-level performance**
+- 🧱 Scalable, event-driven **backend architectures**
 
 ---
 
-## Connect With Me
+## 🤝 Let's Connect
+
+I'm always open to collaborating on interesting projects, discussing ideas, or just talking tech.
 
 <p align="center">
   <a href="https://github.com/RushiK8626">
@@ -145,4 +130,11 @@ A fully playable chess game with AI integration.
   <a href="https://www.linkedin.com/in/rushikesh-kadepurkar-9a9006292/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  <a href="mailto:rushikeshk2005@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <em>⭐ Thanks for stopping by, happy building!</em>
 </p>
